@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(13, 17, 23);
+    font-family: Helvetica;
+}
+
+input,
+button {
+  outline: 0;
+}
+
+
+
+header#main-header{
+    height: 62px;
+    background: rgb(22, 27, 34);
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    color: white;
+}
+
+
+header#main-header .left-header{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+
+header#main-header .left-header img{
+    height: 32px;
+    width: 32px;
+}
+
+header#main-header .left-header input{
+    height: 30px;
+    width: 272px;
+    background: #0d1117;
+    border: .5px lightslategrey solid;
+    border-radius: 5px;
+    margin-left: 17px;
+    padding-left: 8px;
+}
+
+
+header#main-header .left-header nav ul{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+header#main-header .left-header nav li{
+    margin-left: 17px;
+    font-weight: 600;
+}
+
+header#main-header .right-header {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+header#main-header .right-header .more{
+    margin: 0px 20px;
+}
+
+header#main-header .right-header .avatar{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
