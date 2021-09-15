@@ -5,16 +5,15 @@
 }
 
 body{
-    background: rgb(13, 17, 23);
+    background: #010409;
     font-family: Helvetica;
+    color: rgb(201, 209, 217)
 }
 
 input,
 button {
   outline: 0;
 }
-
-
 
 header#main-header{
     height: 62px;
@@ -24,7 +23,6 @@ header#main-header{
     justify-content: space-between;
     color: white;
 }
-
 
 header#main-header .left-header{
     display: flex;
@@ -60,12 +58,18 @@ header#main-header .left-header nav ul{
 header#main-header .left-header nav li{
     margin-left: 17px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+header#main-header .left-header nav li:hover{
+    color: rgba(255, 255, 255, 0.616);
 }
 
 header#main-header .right-header {
     display: flex;
     align-items: center;
     margin-right: 30px;
+    
 }
 
 header#main-header .right-header .more{
@@ -76,4 +80,242 @@ header#main-header .right-header .avatar{
     height: 20px;
     width: 20px;
     border-radius: 50%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside#left-side-content {
+    height: 1000px;  
+    width: 350px;
+    padding-left: 30px;
+    padding-right: 50px;
+    background: #0d1117;
+}
+
+aside#left-side-content .rep-button{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 8px;
+}
+
+aside#left-side-content .rep-button p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+aside#left-side-content .rep-button button{
+    margin-left: 130px;
+    background: rgb(35, 134, 54);
+    padding: 6px 12px;
+    border: 0;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+}
+
+aside#left-side-content .rep-button button span{
+    margin-left: 5px;
+}
+
+aside#left-side-content .input-bar input{
+    height: 30px;
+    width: 285px;
+    background: #0d1117;
+    border: .5px lightslategrey solid;
+    border-radius: 5px;
+    padding: 12px 12px;     
+}
+
+
+aside#left-side-content .repositories{
+    margin-top: 15px;
+}
+
+aside#left-side-content .repositories ul{
+    list-style-type: none;
+}
+
+aside#left-side-content .repositories ul li{
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #58a6ff;
+}
+
+aside#left-side-content .repositories ul li:last-child{
+    padding-bottom: 25px;
+    border-bottom: lightslategrey 1px solid;
+}
+
+
+aside#left-side-content .repositories ul li img {
+    margin-right: 5px;
+}
+
+aside#left-side-content .recent-activity {
+    width: 285px;
+
+}
+
+aside#left-side-content .recent-activity p{
+    color:rgb(139, 148, 158);
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+aside#left-side-content .recent-activity p:first-child {
+    color:rgb(201, 209, 217);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+section#middle-content{
+    flex-grow: 1;
+    width: 830px;
+    
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+section#middle-content .banner{
+    margin-top: 18px;
+    padding: 32px;
+    border-radius: 8px;
+    max-width: 970px;
+    border: 1px solid #30363d;
+    background: #0d1117;
+} 
+
+section#middle-content .banner p{
+    margin: 15px 0;
+}
+
+section#middle-content .banner strong{ 
+    font-weight: normal;
+    color: #58a6ff
+}    
+
+section#middle-content .banner button {
+    border: 1px solid #30363d;
+    background: rgb(33, 38, 45);
+    color: #58a6ff;
+    height: 32px;
+    padding: 5px 16px;
+    border-radius: 6px;
+}
+
+section#middle-content .tips{
+    margin-top: 30px;
+    font-size: 12px;
+} 
+
+section#middle-content .tips p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+section#middle-content .tips strong{    
+    color: #58a6ff
+}
+
+section#middle-content .tips img{
+   
+    margin-right: 5px;
+}
+
+section#middle-content .bottom-content{
+    margin-top: 40px;
+
+}
+
+section#middle-content .bottom-content .copyright{
+    display: flex;
+    align-items: center;
+    
+}
+
+section#middle-content .bottom-content .copyright span{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+section#middle-content .bottom-content {
+    display: flex; 
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+section#middle-content .bottom-content ul{
+    list-style-type: none;
+    position: relative;
+    left: 250px;
+    font-size: 12px;
+}
+
+section#middle-content .bottom-content li{
+    margin-bottom: 8px;
+}
+
+
+section#middle-content .bottom-content ul.links-list2{
+    margin-left: 70px;
+    margin-right: 110px;
+}
+
+aside#right-side-content {
+    flex-grow: 1;
+
+}
+
+aside#right-side-content .save-the-date{
+    border-radius: 8px;
+    border: 1px solid #30363d;
+    padding: 16px;
+    margin-top: 28px;
+    background: #0d1117;
+    width: 300px;
+   
+    font-size: 14px;
+}
+
+aside#right-side-content .save-the-date h3{
+    display: flex;
+}
+
+aside#right-side-content .save-the-date img{
+    margin-right: 10px
+}
+
+aside#right-side-content .save-the-date p{
+    line-height: 18px;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+aside#right-side-content .save-the-date button{
+    background: #21262d;
+    color: rgb(201, 209, 217);
+    border: 1px solid #30363d;
+    padding: 3px 12px;
+    border-radius: 6px;
+
+}
+
+
+aside#right-side-content .explore-repositories{
+    margin-top: 25px;
 }
