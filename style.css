@@ -11,6 +11,7 @@ body{
 }
 
 input,
+
 button {
   outline: 0;
 }
@@ -45,7 +46,6 @@ header#main-header .left-header input{
     margin-left: 17px;
     padding-left: 8px;
 }
-
 
 header#main-header .left-header nav ul{
     font-size: 14px;
@@ -108,7 +108,6 @@ aside#left-side-content .rep-button p{
     font-weight: 600;
 }
 
-
 aside#left-side-content .rep-button button{
     margin-left: 130px;
     background: rgb(35, 134, 54);
@@ -132,7 +131,6 @@ aside#left-side-content .input-bar input{
     padding: 12px 12px;     
 }
 
-
 aside#left-side-content .repositories{
     margin-top: 15px;
 }
@@ -155,7 +153,6 @@ aside#left-side-content .repositories ul li:last-child{
     border-bottom: lightslategrey 1px solid;
 }
 
-
 aside#left-side-content .repositories ul li img {
     margin-right: 5px;
 }
@@ -172,13 +169,11 @@ aside#left-side-content .recent-activity p{
     margin-top: 10px;
 }
 
-
 aside#left-side-content .recent-activity p:first-child {
     color:rgb(201, 209, 217);
     font-weight: 600;
     font-size: 14px;
 }
-
 
 section#middle-content{
     flex-grow: 1;
@@ -187,7 +182,6 @@ section#middle-content{
     padding-top: 30px;
     padding-left: 30px;
 }
-
 
 section#middle-content .banner{
     margin-top: 18px;
@@ -269,7 +263,6 @@ section#middle-content .bottom-content li{
     margin-bottom: 8px;
 }
 
-
 section#middle-content .bottom-content ul.links-list2{
     margin-left: 70px;
     margin-right: 110px;
@@ -312,9 +305,7 @@ aside#right-side-content .save-the-date button{
     border: 1px solid #30363d;
     padding: 3px 12px;
     border-radius: 6px;
-
 }
-
 
 aside#right-side-content .explore-repositories{
     margin-top: 25px;
